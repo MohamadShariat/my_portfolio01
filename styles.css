@@ -1,6 +1,6 @@
 :root {
   --mainColor: #eaeaea;
-  --secondarycolor: #fff;
+  --secondaryColor: #fff;
 
   --borderColor: #c1c1c1;
 
@@ -24,6 +24,10 @@ html,
 body {
   padding: 0;
   margin: 0;
+}
+
+body * {
+  transition: 0.3s;
 }
 
 h1,
@@ -88,7 +92,7 @@ h6 {
 }
 
 .s2 {
-  background-color: var(--secondarycolor);
+  background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
   overflow: auto;
 }
